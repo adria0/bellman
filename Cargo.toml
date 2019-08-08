@@ -18,8 +18,9 @@ bit-vec = "0.4.4"
 futures = "0.1"
 cfg-if = "0.1.7"
 
-#pairing = {package = "pairing_ce", path = "../pairing" }
-pairing = {package = "pairing_ce", version = "0.18.0" }
+#pairing = { package = "pairing_ce", path = "../pairing" }
+#pairing = { package = "pairing_ce", version = "0.18.0" }
+pairing =  { package = "pairing_ce", git = "https://github.com/adria0/pairing", branch = "feature/affinecoords" }
 byteorder = "1"
 
 futures-cpupool = {version = "0.1", optional = true}
